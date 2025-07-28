@@ -48,7 +48,7 @@ export default {
   mounted() {
     try {
       fetch(
-        "https://raw.githubusercontent.com/Croissant-Dog/cafestileweb.github.io/main/public/assets/jsons/staff.json"
+        "https://raw.githubusercontent.com/Croissant-Dog/cafestileweb/refs/heads/main/public/assets/jsons/staff.json"
       )
         .then((res) => res.json())
         .then((data) => (this.staffData = data));
