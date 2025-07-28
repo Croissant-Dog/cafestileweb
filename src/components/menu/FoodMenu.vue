@@ -22,7 +22,7 @@ export default {
   mounted() {
     try {
       fetch(
-        "https://raw.githubusercontent.com/Croissant-Dog/cafestileweb/refs/heads/main/public/assets/jsons/menu.json"
+        "https://raw.githubusercontent.com/Croissant-Dog/cafestileweb.github.io/refs/heads/main/public/assets/jsons/menu.json"
       )
         .then((res) => res.json())
         .then((data) => (this.menuData = data));
